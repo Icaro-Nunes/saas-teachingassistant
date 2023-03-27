@@ -25,6 +25,7 @@ export class Aluno {
     aluno.nome = this.nome;
     aluno.cpf = this.cpf;
     aluno.email = this.email;
+    aluno.github = this.github;
     aluno.metas = this.cloneMetas();
     return aluno;
   }
